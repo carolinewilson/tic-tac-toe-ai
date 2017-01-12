@@ -1,0 +1,99 @@
+body {
+  background-color: #000;
+  font-family: 'Rock Salt', cursive;
+}
+header, header p {
+  text-align: center;
+  color: #fff;
+}
+h2, p {
+  text-align: left;
+  color: white;
+}
+h2 {
+  line-height: 10px;
+  padding-top: 20px;
+  text-transform: uppercase;
+}
+p {
+  font-family: 'Raleway', sans-serif;
+}
+span {
+  font-family: 'Rock Salt', cursive;
+}
+ul {
+  list-style-type: none;
+}
+ul li {
+  display: inline;
+  margin-left: 20px;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.active {
+  background-color: white;
+  color: #6136A0;
+}
+#mainContainer {
+  width: 780px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+#board {
+  margin: 0 auto;
+  text-align: center;
+  display: inline-block;
+  width: 423px;
+  padding: 25px;
+  background-color: white;
+}
+#scoreboard {
+  background-color: #6136A0;
+  margin-left: 20px;
+  text-align: center;
+  display: inline-block;
+  width: 220px;
+  vertical-align: top;
+  padding: 10px 30px;
+  height: 451px;
+}
+#players {
+  font-size: 25px;
+  font-weight: bold;
+}
+#scoreX, #scoreO {
+  font-size: 23px;
+  font-weight: bold;
+  padding-left: 20px;
+}
+.tile {
+  background-color: #494FC0;
+  /*color: #494FC0;*/
+  margin: -1px -4px;
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  padding: 20px;
+  font-size: 50px;
+  font-family: 'Rock Salt', cursive;
+  line-height: 100px;
+  vertical-align: top;
+}
+.x {
+  background-color: #169097;
+  color: white;
+}
+.o {
+  background-color: #6C067C;
+  color: white;
+}
+button {
+  padding: 10px;
+  margin: 0 4px;
+  border-radius: 5px;
+  background-color: white;
+  border: white;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+}

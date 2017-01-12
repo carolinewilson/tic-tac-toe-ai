@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>TicTacToe</title>
+  <link rel="stylesheet" href="css/style.css" media="screen" title="no title">
+  <link href="https://fonts.googleapis.com/css?family=Raleway|Rock+Salt" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Tic.Tac.Toe.</h1>
+    <p>
+      The object of Tic Tac Toe is to get three in a row. This can be a row, column or diagonal line.
+    </p>
+    <ul>
+      <li>Pick your level:</li>
+      <li id="easy" class="diff">Easy</li>
+      <li id="hard" class="diff">Hard</li>
+    </ul>
+  </header>
+  <div id="mainContainer">
+    <div id="board" class="gameBoard">
+      <div id="0" class="tile"></div>
+      <div id="1" class="tile"></div>
+      <div id="2" class="tile"></div>
+      <div id="3" class="tile"></div>
+      <div id="4" class="tile"></div>
+      <div id="5" class="tile"></div>
+      <div id="6" class="tile"></div>
+      <div id="7" class="tile"></div>
+      <div id="8" class="tile"></div>
+    </div>
+    <div id="scoreboard">
+      <h2>Next Up...</h2>
+      <p><span id="players"></p>
+        <h2>Scoreboard</h2>
+        <p>Player X<span id="scoreX"></span></p>
+        <p>Player O<span id="scoreO"></span></p>
+        <button type="button" name="button" id="resetBoardBtn">Clear board </button>
+        <button type="button" name="button" id="resetScoresBtn">Reset scores</button>
+      </div>
+    </div>
+    <script type="text/javascript" src="js/app.js"></script>
+  </body>
+  </html>
